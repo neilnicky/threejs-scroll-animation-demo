@@ -65,7 +65,7 @@ scene.background = spaceTexture;
 
 // Avatar
 
-const nicksTexture = new THREE.TextureLoader().load('nickss.png');
+const nicksTexture = new THREE.TextureLoader().load('nicks.jpeg');
 
 const nicks = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: nicksTexture }));
 
